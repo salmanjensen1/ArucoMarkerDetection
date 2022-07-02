@@ -19,16 +19,12 @@ class ReadImage(object):
         # the markers
         print("[INFO] detecting '{}' tags...".format(type))
         arucoDict = cv2.aruco.Dictionary_get(ARUCO_DICT[type])
-        print(arucoDict)
         arucoParams = cv2.aruco.DetectorParameters_create()
         (corners, ids, rejected) = cv2.aruco.detectMarkers(image, arucoDict,
                                                            parameters=arucoParams)
 
         # verify *at least* one ArUco marker was detected
         if len(corners) > 0:
-            print("\n")
-            print(len(corners))
-            print("\n")
             # flatten the ArUco IDs list
             ids = ids.flatten()
             # loop over the detected ArUCo corners
@@ -56,6 +52,7 @@ class ReadImage(object):
                 cv2.putText(image, str(markerID),
                             (topLeft[0], topLeft[1] - 15), cv2.FONT_HERSHEY_SIMPLEX,
                             0.5, (0, 255, 0), 2)
+                print(markerID)
                 print("[INFO] ArUco marker ID: {}".format(markerID))
                 # show the output image
                 cv2.imshow("Image", image)

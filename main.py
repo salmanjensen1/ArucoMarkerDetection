@@ -12,6 +12,6 @@ ap.add_argument("-t", "--type", type=str,
 args = vars(ap.parse_args())
 imageReadObject = ReadImage();
 # imageReadObject.readImage(args["image"], args["type"])
-
+#
 videoReadObject = ReadVideo();
 videoReadObject.readVideo(args["type"])
