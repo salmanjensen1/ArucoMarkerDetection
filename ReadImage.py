@@ -2,12 +2,16 @@ import imutils
 import sys
 import cv2.aruco
 from Aruco_Dict import ARUCO_DICT
+import pyrealsense2
+from realsense_depth import *
 
 class ReadImage(object):
     def readImage(self, imagePath, type):
         print("[INFO] loading image...")
         image = cv2.imread(imagePath)
         image = imutils.resize(image, width=600)
+        dc = DepthCamera();
+        ret, image, color_frame = dc.get_frame()
 
         # verify that the supplied ArUCo tag exists and is supported by
         # OpenCV

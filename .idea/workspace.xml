@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d13da58f-ee2b-4e8f-9ffe-6e8f4e76ca9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artags.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artags.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadVideo.py" afterDir="false" />
@@ -35,8 +40,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/salma/Desktop/Year 2/Semester 2-1/SPL-1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/salma/Downloads/pyrealsense2-2.51.1.4348-cp39-cp39-win_amd64.whl&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="--image &quot;C:\\Users\\salma\\Desktop\\artags\\aruco2.png&quot; --type &quot;DICT_4X4_50&quot;" />
+      <option name="PARAMETERS" value="--image &quot;C:\\Users\\salma\\Desktop\\artags\\aruco2.png&quot; --type &quot;DICT_4X4_1000&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -99,6 +104,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\salma\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d13da58f-ee2b-4e8f-9ffe-6e8f4e76ca9d" name="Changes" comment="" />
